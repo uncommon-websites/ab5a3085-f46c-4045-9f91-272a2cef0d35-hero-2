@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delphi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+<body class="bg-white text-[#475569]">
+
+    <div class="w-full min-h-screen px-5 py-6 md:px-10 md:py-10 mx-auto max-w-[2400px]">
+        
+        <!-- Navigation -->
+        <header class="grid grid-cols-2 md:grid-cols-12 gap-4 text-[15px] leading-none mb-32 md:mb-64">
+            
+            <!-- Logo: Far Left -->
+            <div class="col-span-1 md:col-span-3 tracking-tight text-[#3b82f6] font-medium">
+                Delphi
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden col-span-1 text-right font-medium text-[#3b82f6]">Menu</div>
+
+            <!-- Desktop Links -->
+            <div class="hidden md:block md:col-start-4 md:col-span-3">
+                <a href="#" class="hover:text-[#3b82f6] transition-colors">Library of Minds</a>
+            </div>
+
+            <div class="hidden md:block md:col-start-7 md:col-span-3">
+                <a href="#" class="hover:text-[#3b82f6] transition-colors">Our Philosophy</a>
+            </div>
+
+            <div class="hidden md:block md:col-start-10 md:col-span-2">
+                <button class="hover:text-[#3b82f6] transition-colors text-[#3b82f6]">Book Demo</button>
+            </div>
+
+            <div class="hidden md:block md:col-start-12 md:col-span-1 text-right">
+                <a href="#" class="hover:text-[#3b82f6] transition-colors font-medium">Get Started</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Text Section -->
+            <section class="mb-32 md:mb-52">
+                <h1 class="text-2xl md:text-4xl lg:text-[2.65rem] leading-[1.15] tracking-tight font-normal max-w-full md:max-w-[78%] lg:max-w-[72%] text-[#3b82f6]">
+                    Delphi is the world's platform for Human Intelligence, enabling experts to scale their wisdom through authentic, content-trained digital clones that provide personalized mentorship to anyone, anywhere, at any time.
+                </h1>
+            </section>
+
+            <!-- Project Section -->
+            <section class="w-full">
+                <!-- Project Info Header -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-y-2 md:gap-y-0 mb-5 text-[15px]">
+                    
+                    <!-- Title -->
+                    <div class="md:col-start-4 md:col-span-3 font-medium text-[#3b82f6]">
+                        Matthew Hussey Clone
+                    </div>
+
+                    <!-- Description -->
+                    <div class="md:col-start-7 md:col-span-6 lg:col-span-5 text-[#475569] leading-normal">
+                        Empowering millions with on-demand relationship expertise via a high-fidelity digital mind that maintains authenticity while scaling personalized interaction.
+                    </div>
+                </div>
+
+                <!-- Project Image -->
+                <div class="grid grid-cols-1 md:grid-cols-12">
+                    <div class="md:col-start-4 md:col-span-9">
+                        <img src="https://placehold.co/1600x900/3b82f6/white?text=Delphi+Conversational+Media" alt="Delphi Digital Clone Interface" class="w-full h-auto object-cover grayscale block aspect-[16/9] md:aspect-[16/8.5] hover:grayscale-0 transition-all duration-700">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+</body>
+</html>
